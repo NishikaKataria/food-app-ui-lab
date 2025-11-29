@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Food App - Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Foodies</div>
+      <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+   <main>
+    <section class="hero container">
+      <div>
+        <h1>Fresh & Tasty</h1>
+        <p>Choose from our delicious menu. Simple UI for lab submission.</p>
+      </div>
+      <div class="hero-img">
+        <img src="images/profile.png" alt="food hero">
+      </div>
+    </section>
+
+    <section id="menu" class="container menu-section">
+      <h2>Our Menu</h2>
+
+      <div class="menu-controls">
+        <input id="search" type="search" placeholder="Search food..." />
+        <select id="filter">
+          <option value="all">All</option>
+          <option value="veg">Veg</option>
+          <option value="nonveg">Non-Veg</option>
+        </select>
+      </div>
+
+      <div id="menuGrid" class="menu-grid">
+        <!-- cards are injected by JS -->
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About</h2>
+      <p>This is a simple front-end Food App UI built for Lab. Uses flexbox, grid & small JS.</p>
+    </section>
+
+     <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <form onsubmit="return false;">
+        <label>Name <input type="text" required></label>
+        <label>Email <input type="email" required></label>
+        <label>Message <textarea rows="3" required></textarea></label>
+        <button class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Nishika Chaudhary</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
