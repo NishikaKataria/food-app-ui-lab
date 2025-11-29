@@ -9,14 +9,14 @@ The app shows a food menu with images, prices, search bar, filter, and an intera
 
 📌 Features
 
--Hero section with image
--Menu items displayed using JavaScript
--Local images stored inside images/ folder
--Search bar (filters food by name)
--Veg / Non-Veg dropdown filter
--Cards styled using CSS Grid
--Simple "Add" button showing an alert
--Fully responsive layout
+Hero section with image
+Menu items displayed using JavaScript
+Local images stored inside images/ folder
+Search bar (filters food by name)
+Veg / Non-Veg dropdown filter
+Cards styled using CSS Grid
+Simple "Add" button showing an alert
+Fully responsive layout
 
 📂 Folder Structure
 Food app/
@@ -44,8 +44,8 @@ CSS – design
 JavaScript – dynamic menu, filtering, alerts
 
 🖼️ Hero Image & Menu Images
--All images are stored in the images folder.
--In the code, I used paths like:
+All images are stored in the images folder.
+In the code, I used paths like:
 images/pizza1.jpg
 images/wrap.jpg
 images/profile.png
